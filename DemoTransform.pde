@@ -3,7 +3,9 @@ int c = 299792458;
 int posX = c;
 int size = 20;
 
+//Change me to observe
 float targetV = 0;
+
 void setup(){
   
   rectMode(CENTER);
@@ -19,7 +21,6 @@ void setup(){
   for (int i = 0; i < height; i+= height/10) {
     line(width/2 - 10,i, width/2 + 10, i);
   }
-  
   
   drawVelocityLine(c);
   
